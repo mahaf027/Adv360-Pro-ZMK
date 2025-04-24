@@ -25,7 +25,7 @@
         cp_new_tab: cp_new_tab {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LG(C) &kp LG(T) &kp LG(V)>;
+            bindings = <&kp LG(C) &kp LG(T) &kp LG(V) &kp ENTER>;
             label = "CP_NEW_TAB";
         };
 
